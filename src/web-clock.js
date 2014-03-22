@@ -8,7 +8,7 @@ Author: Jakob Aindreas Rivera
 //Note: The info comment is gonna be moved into a JSON format.
 var clock = (function clock(clockNode)
 {
-    clock = clock || document.querySelector('#clock');
+    clock = clock || document.querySelector('#clock, .clock');
     //var currentTime,hours,minutes,seconds,timeOfDay;
     return function()
     {
