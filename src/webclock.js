@@ -1,6 +1,6 @@
 //WebClock. Copyright © 2014 Jakob Aindreas Rivera.
 /* Info:
-Version: 3.0
+Version: 2.0
 Type: Widget
 Language: pure JavaScript
 Author: Jakob Aindreas Rivera
@@ -26,4 +26,4 @@ var clock = (function clock(clockNode)
         );
     };
 }(document.getElementById('clock')));
-var clockInterval = setInterval(clock, 100);
+var clockInterval = setInterval(clock, 1000);
